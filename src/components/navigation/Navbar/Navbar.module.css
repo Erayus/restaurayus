@@ -1,0 +1,22 @@
+.Navbar {
+    width: 100%;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.Brandname {
+    width: 20%;
+    font-weight: bolder;
+}
+.Brandname h1 {
+    display: table-cell; 
+    height: 50px;
+    vertical-align: middle;
+}
+
+.Navbar nav{
+    width: 80%;
+}

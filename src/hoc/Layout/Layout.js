@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-
+import Navbar from '../../components/navigation/Navbar/Navbar';
+import './Layout.module.css';
 class Layout extends Component {
     render() {
         return (
             <React.Fragment>
-                <div>Navigation Bar</div>
+                <Navbar/>
                 <div>Main Content</div>
             </React.Fragment>
         )
